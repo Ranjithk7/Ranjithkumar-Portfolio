@@ -1,0 +1,20 @@
+/* about section styling */
+
+.about .about-content .right{
+    width: 90%;
+    margin: 0 auto;
+}
+.about .about-content .right .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.about .about-content .right .text span{
+    color: rgb(38, 196, 38);
+}
+.about .about-content .right p{
+    display: list-item;
+    padding-bottom: 13px;
+    text-align:justify;
+    color:rgb(229, 215, 215);
+}

@@ -1,0 +1,101 @@
+.home{
+    display: flex;
+    color: #fff;
+    height: 100vh;
+    font-family: 'Ubuntu', sans-serif;
+    padding:100px 0 0;
+}
+.home .home-content .column{
+    width: 50%;
+    
+}
+.home .home-content .text-1{
+    font-size: 20px;
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.4s;
+}
+.home .home-content .text-2{
+    font-size: 60px;
+    font-weight: 600;
+    margin-left: -3px;
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.4s;
+}
+.home .home-content .text-3{
+    font-size: 30px;
+    margin: 5px 0;
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.4s;
+}
+.home .home-content span{
+    color: rgb(38, 196, 38);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* image */
+.home .home-content .right {
+    opacity: 0;
+    animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
+    animation-delay: .5s, 3.1s;
+}
+
+.home .home-content .right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* .home .home-content .right::after {
+    content: '';
+    position: absolute;
+    background: transparent;
+    border-radius: 50%;
+} */
+.home-content .right .image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home .home-content .right img {
+    opacity: .5;
+    max-width: 80%;
+    object-fit: cover;
+    background-size: cover;
+}
+.home-sci {
+    text-align: center;
+    margin-top: 40px;
+}
+.home-sci p {
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.home-sci a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: 2px solid green;
+    border-radius: 50%;
+    font-size: 20px;
+    color: green;
+    text-decoration: none;
+    margin: 15px;
+    opacity: 0;
+    animation: zoomIn 1s ease forwards;
+    animation-delay: 0.4s;
+}
+
+.home-sci a:hover {
+    background: green;
+    color: black;
+    box-shadow: 0 0 20px green;
+}

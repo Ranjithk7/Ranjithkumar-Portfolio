@@ -1,0 +1,25 @@
+  
+  .swiper {
+    width: 100%;
+  }
+  .portfolio__content {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .swiper-slide img {
+    
+    width: 310px;
+    border-radius: 0.5rem;
+    /* justify-self: center; */
+  }
+  .swiper-button-next {
+    --swiper-theme-color:green;
+  }
+  .swiper-button-prev {
+    --swiper-theme-color:green;
+  }

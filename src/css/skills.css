@@ -1,0 +1,78 @@
+/* skills section styling */
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+.skills .skills-content .left .text{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills .skills-content .left p{
+    text-align: justify;
+    padding-bottom: 10px;
+    color: rgb(229, 215, 215);
+}
+
+.skills .skills-content .right .bars{
+    margin-bottom: 15px;
+}
+.skills .skills-content .right .info{
+    display: flex;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills .skills-content .right span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .skills-content .right .line{
+    height: 5px;
+    width: 100%;
+    background: lightgrey;
+    position: relative;
+
+}
+.skills .skills-content .right .line::before{
+    content: "";
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: green;
+    animation: progress 1500ms ease-in 1;
+
+}
+.skills-content .right .html::before{
+    width: 90%;
+}
+.skills-content .right .css::before{
+    width: 70%;
+}
+.skills-content .right .js::before{
+    width: 60%;
+}
+.skills-content .right .php::before{
+    width: 70%;
+}
+.skills-content .right .mysql::before{
+    width: 60%;
+}
+.skills-content .right .java::before{
+    width: 50%;
+}
+.skills-content .right .py::before{
+    width: 70%;
+}
+.skills-content .right .ms::before{
+    width: 60%;
+}
+.skills-content .right .mern::before{
+    width: 70%;
+}
+
+@keyframes progress {
+    from {
+        width: 0;
+    }
+}
