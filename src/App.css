@@ -157,12 +157,11 @@ canvas {
     position: fixed;
     top: 0;
     left: 0;
-    height:auto;
+    height:100vh;
     background-color: black;
     z-index: -1;
     background-size: cover;
     background-blend-mode: multiply;
-    background-size: cover;
     scroll-behavior: smooth;
 }
 .btn-box {
