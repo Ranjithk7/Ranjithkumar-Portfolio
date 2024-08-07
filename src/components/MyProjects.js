@@ -12,7 +12,7 @@ const MyProjects = () => {
       {projects.map(project => (
         <SwiperSlide>
           <div className="portfolio__content grid">
-            <img src={window.location.origin + project.img} className="portfolio__img" />
+            <img src={project.img} className="portfolio__img" />
               <div className="portfolio__data">
                 <h3 className="portfolio__title">
                   {project.title}

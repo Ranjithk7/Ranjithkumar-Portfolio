@@ -1,6 +1,12 @@
+import BlogImage from '../images/blog.png';
+import ChatImage from '../images/chat.png';
+import AutoImage from '../images/home.png';
+import PetImage from '../images/petcare.png';
+import ScrapImage from '../images/scrap.jpeg';
+
 const projects = [
     {
-        img: '/images/home.png',
+        img: AutoImage,
         title: 'Auto-Mobile Mechanic Website',
         desc:`This project is a weather website that provides live weather
             updates and forecasts based on your location. Stay informed
@@ -12,7 +18,7 @@ const projects = [
         repo:'https://github.com/Ranjithk7/AutoMob_Mechanic_Site'
     },
     {
-        img: '/images/blog.png',
+        img: BlogImage,
         title: 'Full Stack Blog Site',
         desc:`This project is a weather website that provides live weather
             updates and forecasts based on your location. Stay informed
@@ -24,7 +30,7 @@ const projects = [
         repo:'https://github.com/Ranjithk7/Fullstack-Blog-Site'
     },
     {
-        img: '/images/scrap.jpeg',
+        img: ScrapImage,
         title: 'Scraping a Jop Portal Using Python',
         desc:`This project is a weather website that provides live weather
             updates and forecasts based on your location. Stay informed
@@ -36,7 +42,7 @@ const projects = [
         repo:'https://github.com/Ranjithk7/Scraping-Job-Portal-Using-Python/tree/master'
     },
     {
-        img: '/images/chat.png',
+        img: ChatImage,
         title: 'Real Time Chat Application',
         desc:`This project is a weather website that provides live weather
             updates and forecasts based on your location. Stay informed
@@ -48,7 +54,7 @@ const projects = [
         repo:'https://github.com/Ranjithk7/Realtime-chat-web-application'
     },
     {
-        img: '/images/petcare.png',
+        img: PetImage,
         title: 'Pet Care Site Using Tailwind Css',
         desc:`This project is a weather website that provides live weather
             updates and forecasts based on your location. Stay informed

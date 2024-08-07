@@ -2,6 +2,7 @@ import React from 'react';
 import AutoType from '../components/AutoType';
 import '../css/home.css';
 import Button from '../components/Button';
+import Hacker from '../images/saianon.png'
 
 const HomePage = () => {
   return (
@@ -23,7 +24,7 @@ const HomePage = () => {
                 </div>
                 <div className="column right">
                         <div className="image">
-                            <img src={window.location.origin + '/saianon.png'} alt="nop" />
+                            <img src={Hacker} alt="nop" />
                         </div>
                 </div>  
             </div> 
