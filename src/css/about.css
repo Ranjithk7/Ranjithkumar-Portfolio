@@ -1,9 +1,27 @@
 /* about section styling */
-
+ .about .about-content {
+    flex-direction: column;
+}
 .about .about-content .right{
-    width: 90%;
     margin: 0 auto;
 }
+.about .about-content .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about .about-content .left .img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about .about-content .left img{
+    border-radius: 10%;
+    max-width: 80%;
+    object-fit: cover;
+    background-size: cover;
+}
+
 .about .about-content .right .text{
     font-size: 25px;
     font-weight: 600;
@@ -17,4 +35,8 @@
     padding-bottom: 13px;
     text-align:justify;
     color:rgb(229, 215, 215);
+}
+
+.slideTop {
+    animation: slideTop .5s ease forwards;
 }

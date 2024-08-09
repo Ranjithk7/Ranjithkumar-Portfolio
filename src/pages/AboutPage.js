@@ -3,6 +3,8 @@ import '../css/about.css';
 import SocialIcons from '../components/SocialIcons';
 import AutoType from '../components/AutoType';
 import Button from '../components/Button';
+import me from '../images/me.jpeg';
+
 
 const AboutPage = () => {
   return (
@@ -11,6 +13,11 @@ const AboutPage = () => {
         <div className="max-width">
           <h2 className="title">About me</h2>
           <div className="about-content">
+          <div className="column left">
+            <div className='img'>
+            <img src={me} alt="me"/>
+            </div>
+          </div>
             <div className="column right">
               <div className="text">I'm Ranjithkumar and I'm a <AutoType /></div>
               <div className='about-me'>
@@ -36,6 +43,8 @@ const AboutPage = () => {
               </div>
               
               <Button
+                target="_blank"
+                href="https://drive.google.com/file/d/1zJWlRPXCQwI1sWyOr7eVhUjKRraa9_Ml/view?usp=drivesdk"
                 download="Ranjithkumar V/Resume"
                 css={`
                 padding:10px 20px;

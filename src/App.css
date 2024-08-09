@@ -47,6 +47,7 @@ section{
     font-family: 'Poppins', sans-serif;
 }
 .home .home-content,
+.about .about-content,
 .skills .skills-content,
 .contact .contact-content{
     display: flex;
@@ -215,6 +216,7 @@ canvas {
     }
     .skills .skills-content .column,
     .contact .contact-content .column{
+        flex-direction: column;
         width: 100%;
         margin-bottom: 35px;
     }
@@ -271,8 +273,16 @@ canvas {
     }
 }
 @media (max-width: 690px) {
+    .about .about-content .left img{
+        max-width: 50%;
+    }
+    .swiper-slide img {
+    
+        width: 100%;
+        /* justify-self: center; */
+      }
     .swiper-button-prev, .swiper-button-next{
-        top: var(--swiper-navigation-top-offset, 15%);
+        top: var(--swiper-navigation-top-offset, 10%);
     } 
     .swiper-button-prev:after, .swiper-button-next:after {
         font-size: calc(var(--swiper-navigation-size)/2);
@@ -282,6 +292,9 @@ canvas {
     }
     .portfolio__content {
         width: 100%;
+    }
+    .portfolio__description {
+        font-size: 13px;
     }
     .max-width{
         padding: 0 10px;

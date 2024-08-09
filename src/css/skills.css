@@ -33,16 +33,19 @@
     position: relative;
 
 }
+:root {
+    animation: none;
+}
 .skills .skills-content .right .line::before{
     content: "";
     position: absolute;
     height: 100%;
     left: 0;
     top: 0;
+    animation: var(--animation);
     background: green;
-    animation: progress 1500ms ease-in 1;
-
 }
+
 .skills-content .right .html::before{
     width: 90%;
 }

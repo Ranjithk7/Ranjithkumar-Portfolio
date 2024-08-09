@@ -49,12 +49,6 @@
     align-items: center;
 }
 
-/* .home .home-content .right::after {
-    content: '';
-    position: absolute;
-    background: transparent;
-    border-radius: 50%;
-} */
 .home-content .right .image {
     display: flex;
     align-items: center;

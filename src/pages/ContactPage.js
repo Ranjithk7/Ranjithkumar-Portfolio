@@ -39,55 +39,55 @@ const ConatactPage = () => {
     }
   }
     return (
-        <section class="contact" id="contact">
-            <div class="max-width">
-                <h2 class="title">Contact me</h2>
-                <div class="contact-content">
-                    <div class="column left">
-                        <div class="text">Get in Touch</div>
+        <section className="contact" id="contact">
+            <div className="max-width">
+                <h2 className="title">Contact me</h2>
+                <div className="contact-content">
+                    <div className="column left">
+                        <div className="text">Get in Touch</div>
                         <p>Feel free to ask any question </p>
-                        <div class="icons">
-                            <div class="row">
-                                <i class="fas fa-user"></i>
-                                <div class="info">
-                                    <div class="head">Name</div>
-                                    <div class="sub-title">Ranjithkumar V</div>
+                        <div className="icons">
+                            <div className="row">
+                                <i className="fas fa-user"></i>
+                                <div className="info">
+                                    <div className="head">Name</div>
+                                    <div className="sub-title">Ranjithkumar V</div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <i class="fas fa-map-marker-alt"></i>
-                                <div class="info">
-                                    <div class="head">Address</div>
-                                    <div class="sub-title">Tiruchengode, Namakkal</div>
+                            <div className="row">
+                                <i className="fas fa-map-marker-alt"></i>
+                                <div className="info">
+                                    <div className="head">Address</div>
+                                    <div className="sub-title">Tiruchengode, Namakkal</div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <i class="fas fa-envelope"></i>
-                                <div class="info">
-                                    <div class="head">Email</div>
-                                    <div class="sub-title">ranjithkumar45v@gmail.com</div>
+                            <div className="row">
+                                <i className="fas fa-envelope"></i>
+                                <div className="info">
+                                    <div className="head">Email</div>
+                                    <div className="sub-title">ranjithkumar45v@gmail.com</div>
                                 </div>
                             </div>
-                            <div class="row">
-                                <i class="fas fa-phone"></i>
-                                <div class="info">
-                                    <div class="head">Phone</div>
-                                    <div class="sub-title">+91 8838610066</div>
+                            <div className="row">
+                                <i className="fas fa-phone"></i>
+                                <div className="info">
+                                    <div className="head">Phone</div>
+                                    <div className="sub-title">+91 8838610066</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="column right">
-                        <div class="text">Message me</div>
+                    <div className="column right">
+                        <div className="text">Message me</div>
                         <form onSubmit={handleSubmit}>
                             <p className={error ? 'error' : 'success'}>{error ? error : successMessage}</p>
-                            <div class="field name">
+                            <div className="field name">
                                     <input type="text" name="name" placeholder="Name" ref={name} required />
                                 </div>
-                            <div class="field email">
+                            <div className="field email">
                                     <input type="email" name='email' placeholder="Email" ref={email} required />
                                 </div>
-                            <div class="field textarea">
+                            <div className="field textarea">
                                 <textarea cols="30" rows="10" name='message' placeholder="Message.." ref={message} required></textarea>
                             </div>
                             <button 

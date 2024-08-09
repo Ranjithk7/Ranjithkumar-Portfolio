@@ -6,14 +6,20 @@ import Hacker from '../images/saianon.png'
 
 const HomePage = () => {
   return (
-    <section class="home" id="home">
-        <div class="max-width">
-            <div class="home-content">
+    <section className="home" id="home">
+        <div className="max-width">
+            <div className="home-content">
                 <div className='column left'>
-                    <div class="text-1">Hello, my name is</div>
-                    <div class="text-2">Ranjithkumar - V</div>
-                    <div class="text-3"><div>And I'm a </div><AutoType/></div>
-                    <Button href="https://drive.google.com/file/d/1zJWlRPXCQwI1sWyOr7eVhUjKRraa9_Ml/view?usp=drivesdk" className="anim" download="Ranjithkumar-Resume">Hire me</Button>
+                    <div className="text-1">Hello, my name is</div>
+                    <div className="text-2">Ranjithkumar - V</div>
+                    <div className="text-3"><div>And I'm a </div><AutoType/></div>
+                    <Button 
+                        target="_blank"
+                        href="https://drive.google.com/file/d/1zJWlRPXCQwI1sWyOr7eVhUjKRraa9_Ml/view?usp=drivesdk" 
+                        className="anim" 
+                        download="Ranjithkumar-Resume">
+                        Hire me
+                    </Button>
                     <div className="home-sci">
                         <p>Connect with me:</p>
                         <a href="https://github.com/ranjithk7" target="_blank"><i className='bx bxl-github'></i></a>
