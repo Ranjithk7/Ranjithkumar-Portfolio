@@ -21,6 +21,7 @@ const MyProjects = () => {
                   {project.desc}
                 </p>
                 <Button
+                target="_blank"
                 href={project.repo}
                 css={`
                 padding:10px 20px;
@@ -33,6 +34,7 @@ const MyProjects = () => {
                 {
                   project.live ? 
                   <Button
+                    target="_blank"
                     href={project.live}
                     css={`
                     margin-left:10px;
