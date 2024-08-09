@@ -14,7 +14,7 @@ const projects = [
             Explore interactive maps, hourly/daily forecasts, and helpful
             insights. Stay ahead of the forecast and make the most of your
             day!`,
-        live:'https://auto-mob-mechain-site.netlify.app/',
+        live:'https://main.d3m3e02d0vz4cr.amplifyapp.com/',
         repo:'https://github.com/Ranjithk7/AutoMob_Mechanic_Site'
     },
     {
