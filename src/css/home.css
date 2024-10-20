@@ -17,12 +17,45 @@
 }
 .home .home-content .text-2{
     font-size: 60px;
-    font-weight: 600;
+    font-weight: 700;
     margin-left: -3px;
     opacity: 0;
     animation: zoomIn 1s ease forwards;
     animation-delay: 0.4s;
 }
+.glitch-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+ }
+ 
+ .glitch {
+    color: #fff;
+    z-index: 1;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
+    display: block;
+    content: attr(data-glitch);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.8;
+ }
+ 
+ .glitch:before {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    color: #00ffff;
+    z-index: -1;
+ }
+ 
+ .glitch:after {
+    animation: glitch-color 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
+    color: #ff00ff;
+    z-index: -2;
+ }
+ 
 .home .home-content .text-3{
     font-size: 30px;
     margin: 5px 0;

@@ -27,12 +27,15 @@ const ConatactPage = () => {
         message: message.current.value,
         reply_to: email.current.value
       });
-      setSuccessMessage("Email successfully sented")
+      setSuccessMessage("Email successfully sented");
     } catch (error) {
         setError(error);
     } finally {
       setLoading(false);
       setError('')
+      setTimeout(() => {
+        setSuccessMessage('')
+      }, 3000);
       name.current.value='';
       email.current.value='';
       message.current.value='';

@@ -11,8 +11,10 @@ const HomePage = () => {
             <div className="home-content">
                 <div className='column left'>
                     <div className="text-1">Hello, my name is</div>
-                    <div className="text-2">Ranjithkumar - V</div>
-                    <div className="text-3"><div>And I'm a </div><AutoType/></div>
+                    <div className='glitch-wrapper'>
+                        <div className="text-2 glitch" data-glitch="Ranjithkumar - V">Ranjithkumar - V</div>
+                    </div>
+                    <div className="text-3 "><div>And I'm a </div><AutoType/></div>
                     <Button 
                         target="_blank"
                         href="https://drive.google.com/file/d/1MiDJ3-NIS6C-UNjUgUQtAuLHu1YM9FKm/view?usp=drivesdk" 

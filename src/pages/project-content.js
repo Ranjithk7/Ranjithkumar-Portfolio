@@ -15,15 +15,15 @@ const projects = [
            payment system. Additionally, it could include a mechanic locator tool, enabling users to find
             the nearest service providers. The website aims to streamline the process of vehicle maintenance
              and enhance customer satisfaction.`,
-        live:'https://main.d3m3e02d0vz4cr.amplifyapp.com/',
+        live:'https://auto-mobiles-site.netlify.app/',
         repo:'https://github.com/Ranjithk7/AutoMob_Mechanic_Site'
     },
     {
         img: BlogImage,
         title: 'Full Stack Blog Site',
         desc:`A Full Stack Blog Website is a comprehensive web application where users can create, edit, view, and delete blog posts. The project involves both front-end and back-end development, integrating technologies such as HTML, CSS, JavaScript for the front-end, and Node.js, Express.js, and a database (like MongoDB or PostgreSQL) for the back-end. The front-end provides a user-friendly interface for browsing posts, while the back-end handles data storage, user authentication, and server-side logic. This project demonstrates proficiency in building and deploying a full stack web application, incorporating CRUD operations, responsive design, and secure authentication.`,
-        live:'http://13.60.54.235/',
-        repo:'https://github.com/Ranjithk7/Fullstack-Blog-Site'
+        live:'',
+        repo:'https://github.com/Ranjithk7/Fullstack-Blog-Site-Redux-Toolkit-'
     },
     {
         img: ScrapImage,
@@ -48,7 +48,7 @@ const projects = [
         boarding. Tailwind CSS enables efficient styling with utility classes, ensuring the site is visually 
         appealing and user-friendly on all devices. The project emphasizes responsive design, quick loading 
         times, and ease of navigation, making it a robust solution for pet owners seeking care for their pets.`,
-        live:'https://d18wnu7io87nm5.cloudfront.net/',
+        live:'',
         repo:'https://github.com/Ranjithk7/Realtime-chat-web-application'
     },
     
