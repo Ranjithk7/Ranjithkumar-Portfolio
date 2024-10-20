@@ -26,7 +26,7 @@ const HomePage = () => {
                         <p>Connect with me:</p>
                         <a href="https://github.com/ranjithk7" target="_blank"><i className='bx bxl-github'></i></a>
                         <a href="https://www.linkedin.com/in/ranjithk3" target="_blank"><i className='bx bxl-linkedin'></i></a>
-                        <a href="https://wa.me/8838610066" target="_blank"><i className='bx bxl-whatsapp'></i></a>
+                        <a href="https://wa.me/918838610066" target="_blank"><i className='bx bxl-whatsapp'></i></a>
                         <a href="https://www.instagram.com/ranjithk_03" target="_blank"><i className='bx bxl-instagram'></i></a>
                     </div>
                 </div>
