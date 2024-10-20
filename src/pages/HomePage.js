@@ -15,7 +15,7 @@ const HomePage = () => {
                     <div className="text-3"><div>And I'm a </div><AutoType/></div>
                     <Button 
                         target="_blank"
-                        href="https://drive.google.com/file/d/1zJWlRPXCQwI1sWyOr7eVhUjKRraa9_Ml/view?usp=drivesdk" 
+                        href="https://drive.google.com/file/d/1MiDJ3-NIS6C-UNjUgUQtAuLHu1YM9FKm/view?usp=drivesdk" 
                         className="anim" 
                         download="Ranjithkumar-Resume">
                         Hire me
