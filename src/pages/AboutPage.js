@@ -44,7 +44,7 @@ const AboutPage = () => {
               
               <Button
                 target="_blank"
-                href="https://drive.google.com/file/d/1zJWlRPXCQwI1sWyOr7eVhUjKRraa9_Ml/view?usp=drivesdk"
+                href="https://drive.google.com/file/d/1MiDJ3-NIS6C-UNjUgUQtAuLHu1YM9FKm/view?usp=drivesdk"
                 download="Ranjithkumar V/Resume"
                 css={`
                 padding:10px 20px;
