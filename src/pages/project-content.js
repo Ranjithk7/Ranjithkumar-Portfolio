@@ -3,6 +3,7 @@ import ChatImage from '../images/chat.png';
 import AutoImage from '../images/home.png';
 import PetImage from '../images/petcare.png';
 import ScrapImage from '../images/scrap.jpeg';
+import Note from '../images/note.png';
 
 const projects = [
     {
@@ -52,7 +53,7 @@ const projects = [
         repo:'https://github.com/Ranjithk7/Realtime-chat-web-application'
     },
     {
-        img: AutoImage,
+        img: Note,
         title: 'Sticky Notes',
         desc:``,
         live:'https://online-sticky-notes.netlify.app/',
