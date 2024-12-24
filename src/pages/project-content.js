@@ -51,6 +51,13 @@ const projects = [
         live:'',
         repo:'https://github.com/Ranjithk7/Realtime-chat-web-application'
     },
+    {
+        img: AutoImage,
+        title: 'Sticky Notes',
+        desc:``,
+        live:'https://online-sticky-notes.netlify.app/',
+        repo:'https://github.com/Ranjithk7/note-app'
+    }
     
 ]
 
