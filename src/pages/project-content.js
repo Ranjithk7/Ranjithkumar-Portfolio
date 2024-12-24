@@ -55,7 +55,10 @@ const projects = [
     {
         img: Note,
         title: 'Sticky Notes',
-        desc:``,
+        desc:`This web application is a digital platform for creating, organizing, and managing sticky notes, developed using React with 
+        Vite for a fast development environment. The application uses Bootstrap for responsive and visually appealing UI components, 
+        ensuring a sleek and user-friendly design. Redux is integrated for efficient state management, allowing seamless handling of 
+        user interactions and updates across the application`,
         live:'https://online-sticky-notes.netlify.app/',
         repo:'https://github.com/Ranjithk7/note-app'
     }
