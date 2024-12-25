@@ -4,7 +4,7 @@ import AutoImage from '../images/home.png';
 import PetImage from '../images/petcare.png';
 import ScrapImage from '../images/scrap.jpeg';
 import Note from '../images/note.png';
-
+import Recipe from '../images/recipe.png';
 const projects = [
     {
         img: AutoImage,
@@ -61,7 +61,15 @@ const projects = [
         user interactions and updates across the application`,
         live:'https://online-sticky-notes.netlify.app/',
         repo:'https://github.com/Ranjithk7/note-app'
+    },
+    {
+        img: Recipe,
+        title: 'Recipe Book',
+        desc:``,
+        live:'https://yummy-recipe-list.netlify.app/recipe/meal/letter/a',
+        repo:'https://github.com/Ranjithk7/Recipe-Book/tree/main'
     }
+
     
 ]
 
