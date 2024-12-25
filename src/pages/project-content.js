@@ -66,7 +66,7 @@ const projects = [
         img: Recipe,
         title: 'Recipe Book',
         desc:``,
-        live:'https://yummy-recipe-list.netlify.app/recipe/meal/letter/a',
+        live:'https://yummy-recipe-list.netlify.app/',
         repo:'https://github.com/Ranjithk7/Recipe-Book/tree/main'
     }
 
